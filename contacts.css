@@ -1,0 +1,125 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-sizing: border-box; margin: 0;
+}
+.navbar-nav {
+    background-color: #C3CFE2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    list-style: none;
+    margin-top: -81px;
+}
+
+ul.navbar-nav li {
+    flex-basis: 11%;
+}
+.nav {
+    background-color: #C3CFE2;
+    padding-bottom: 1px;
+}
+
+.nav a {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+.nav a:hover {
+    color: #4978F8;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 106px;
+    height: 93px;
+    padding-bottom: 10px;
+}
+
+.container{
+    font-family: 'Merriweather', serif;
+    max-width:1000px;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+}
+#map{
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: #989FAA;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-container {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.foot {
+    display: grid;
+    grid-template-areas: "mymail tel site"
+        "mymail tel site";
+    grid-template-columns: 30% 35% 35%;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.mymail {
+    grid-area: mymail;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+.tel {
+    grid-area: tel;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+.site {
+    grid-area: site;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rights {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+#signup img{
+    width: 45px;
+    height: 45px;
+}
+
+#signup{
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-left: 1490px;
+    margin-top: 40px;
+}

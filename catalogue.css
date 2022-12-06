@@ -1,0 +1,273 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+body{
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-sizing: border-box; margin: 0;
+}
+.navbar-nav {
+    background-color: #C3CFE2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    list-style: none;
+    margin-top: -81px;
+}
+
+ul.navbar-nav li {
+    flex-basis: 11%;
+}
+.nav {
+    background-color: #C3CFE2;
+    padding-bottom: 1px;
+}
+
+.nav a {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+}
+.nav a:hover {
+    color: #4978F8;
+}
+
+.logo img {
+    width: 106px;
+    height: 93px;
+    padding-bottom: 10px;
+}
+
+.container{
+    font-family: 'Merriweather', serif;
+    max-width:1000px;
+    margin: 0 auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 132px;
+}
+
+#allcategories{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 35px;
+
+}
+
+.productblock{
+    box-shadow: 2px 2px black;
+    background-color: white;
+    border: 1px solid white;
+    main-width: 295px;
+    min-height: 335px;
+    border-radius: 15px;
+    padding-top: 26px;
+    padding-bottom: 5px;
+    box-shadow: 3px 4px 12px 1px rgba(0,0,0,0.3);
+
+}
+
+.title{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.titles{
+    display: flex;
+    justify-content: center;
+
+}
+.price{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5em 3.1em;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: forestgreen;
+    box-shadow: 2px 2px 25px -7px gray;
+    cursor: pointer;
+
+}
+
+#category_select{
+    position: relative;
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+    font-size: 18px;
+    color: #60666d;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 30px -15px;
+    cursor: pointer;
+}
+
+#cart img{
+    width: 45px;
+    height: 45px;
+}
+
+#cart{
+    background: rgba(0,0,0,0);
+    border: none;
+    margin-left: 1490px;
+    margin-top: 40px;
+}
+
+#cart_list{
+    padding: 0px 30px 30px 20px;
+    font-weight: 100;
+}
+tr #table{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+#checkout {
+    border: 0;
+    margin-top: 20px;
+    padding: 6px 25px;
+    background-color: #6b6;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+#checkout:hover {
+    background-color: #494;
+}
+
+
+footer {
+
+    background-color: #989FAA;
+    margin-top: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.grid-container {
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.foot {
+    display: grid;
+    grid-template-areas: "mymail tel site"
+        "mymail tel site";
+    grid-template-columns: 30% 35% 35%;
+    align-items: center;
+    /*column-gap: 10%;*/
+    text-align: center;
+    padding: 0px;
+}
+
+.mymail {
+    grid-area: mymail;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+.tel {
+    grid-area: tel;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+.site {
+    grid-area: site;
+    text-shadow: rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rights {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px #3d3d3d;
+}
+
+/*.mobile {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: #dadada;*/
+/*    position: fixed;*/
+/*    z-index: 99;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+/*    animation: opacity 800ms linear 10000ms both;*/
+/*}*/
+/*.mobile li{*/
+/*    width: 90%;*/
+/*    margin: 10px auto;*/
+/*    background-color: #024783;*/
+/*    border: 1px white solid;*/
+/*    padding: 10px 0px;*/
+/*    text-align: center;*/
+/*}*/
+/*.mobile li a{*/
+/*    font-size: 24px;*/
+/*    color: white;*/
+/*}*/
+/*@keyframes opacity{*/
+/*    0%{filter:opacity(0);}*/
+/*}*/
+/*.mobile li:nth-child(odd){animation: odd 10000ms linear 10000ms both;}*/
+/*.mobile li:nth-child(even){animation: even 10000ms linear 10000ms both;}*/
+
+/*@keyframes odd{*/
+/*    0% {transform: translateX(-1000px);}*/
+/*}*/
+/*@keyframes even{*/
+/*    0% {transform: translateX(1000px);}*/
+/*}*/
+/*.close{*/
+/*    color: white;*/
+/*    font-size: 24px;*/
+/*    font-family: "FontAwesome";*/
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
+/*    text-align: right;*/
+/*    padding: 20px 0px 10px;*/
+/*}*/
+/*.anime{ animation: anime 800ms linear 0ms both;}*/
+/*@keyframes anime{*/
+/*    100%{transform: translateY(-1500px);}*/
+/*    !* opacity: (0); filter: blur 7px *!*/
+/*}*/
+
+/*.mobile{*/
+/*    !*display: none;*!*/
+/*    margin-top: -146px;*/
+/*}*/

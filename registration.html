@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Email</title>
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("CVM2fcDflm-brY0Ia");
+        })();
+    </script>
+    </body>
+</head>
+<body>
+
+<div class="container">
+    <header>Signup</header>
+    <form id= "reg" action="">
+        <div class="field email-field">
+            <div class="input-field">
+                <input type="email" placeholder="Enter your email" class="email">
+            </div>
+            <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
+        </div>
+
+        <div class="field create-password">
+            <div class="input-field">
+                <input
+                        class="password"
+                        type="password"
+                        placeholder="Create password">
+                <i class="bx bx-hide show-hide"></i>
+            </div>
+            <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter atleast 8 charatfcer with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+            <div class="input-field">
+                <input
+                        type="password"
+                        placeholder="Confirm password"
+                        class="cPassword"
+                />
+                <i class="bx bx-hide show-hide"></i>
+            </div>
+            <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p>
+          </span>
+        </div>
+        <div class="confirm-code">
+            <div class="input-field">
+                <input class="write" type = "text" placeholder="Confirmation code"></div>
+            <span class="error code-error">
+            <i class="bx bx-error-circle error-icon"></i>
+          </span>
+        </div>
+
+        <div class="input-field button">
+            <button id="code" class="numeric" type="submit">Sent code</button>
+        </div>
+        <div class="input-field button">
+            <button id="sub" value="Submit Now" type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+<!-- JavaScript -->
+<script src="registration.js"></script>
+
+

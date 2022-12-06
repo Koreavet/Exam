@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<!--Navigation field-->
+<div class="nav">
+    <button id="signup" ><a href="registration.html"> <img src="./icons8-пользователь-60.png"></a></button>
+    <ul class="navbar-nav">
+        <div class="logo"> <a href="homepage.html"><img src="../test%201234/digital-shop.png" alt="Digital shop"> </a></div>
+        <li class="dropdown active"><a href="homepage.html">Homepage </a> </li>
+        <li class="dropdown"><a href="catalogue.html">Catalogue <i class="fa fa-angle-down"></i></a> </li>
+        <li class="dropdown"><a href="contacts.html">Contacts<i class="fa fa-angle-down"></i></a> </li>
+    </ul>
+</div>
+<!--Banner field -->
+<main>
+    <div class="image-container">
+        <img src="iPhoneX-20170913095319465.jpg" alt="Цветы" id="content1" class="active" class="flex">
+        <img src="RNwXBYNcunuoMQPNHqVMR3-1200-80.jpg" alt="Заколки" id="content2" class="flex">
+
+    </div>
+    <div class="dot-container">
+        <button onclick="dot(1)"></button>
+        <button onclick="dot(2)"></button>
+    </div>
+    <button id="prev" onclick="prev()"> &lt; </button>
+    <button id="next" onclick="next()"> &gt; </button>
+    </div>
+</main>
+
+
+<!--Footer-->
+<footer>
+    <div class="grid-container">
+        <div class="foot">
+            <div class="mymail">Email</div>
+            <div class="tel">Телефон: </div>
+            <div class="site">Социальные сети: </div>
+        </div>
+        <div class="foot">
+            <div class="mymail">digitalshop@gmail.com</div>
+            <div class="tel">+3 542 775 98 23 </div>
+            <div class="site"><img src="Group%2016.png" alt="sites"> </div> <br>
+            <p class="rights">Все права защищены,
+                Digital Shop 2022 Ⓒ</p>
+        </div>
+
+    </div>
+</footer>
+<script src="homepage.js"></script>
+</body>
+</html>
+

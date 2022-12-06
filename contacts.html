@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="contacts.css">
+    <script src="https://yastatic.net/jquery/2.2.3/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=3dabf29e-7514-4cff-ba24-0732365961f3&lang=ru_RU" type="text/javascript">
+    </script>
+    <script src="object_manager_geojson.js"></script>
+</head>
+<body>
+<!--Navigation field-->
+<div class="nav">
+    <button id="signup" ><a href="login.html"> <img src="./icons8-пользователь-60.png"></a></button>
+    <ul class="navbar-nav">
+        <div class="logo"> <a href="homepage.html"><img src="../test%201234/digital-shop.png" alt="Digital shop"> </a></div>
+        <li class="dropdown active"><a href="homepage.html">Homepage </a> </li>
+        <li class="dropdown"><a href="catalogue.html">Catalogue <i class="fa fa-angle-down"></i></a> </li>
+        <li class="dropdown"><a href="contacts.html">Contacts<i class="fa fa-angle-down"></i></a> </li>
+    </ul>
+</div>
+<!--Contacts -->
+
+    <h2>Location:</h2>
+<div id="map" style="width: 600px; height: 400px"></div> <br>
+
+
+
+<!--Footer-->
+<footer>
+    <div class="grid-container">
+        <div class="foot">
+            <div class="mymail">Email</div>
+            <div class="tel">Телефон: </div>
+            <div class="site">Социальные сети: </div>
+        </div>
+        <div class="foot">
+            <div class="mymail">digitalshop@gmail.com</div>
+            <div class="tel">+3 542 775 98 23 </div>
+            <div class="site"><img src="Group%2016.png" alt="sites"> </div> <br>
+            <p class="rights">Все права защищены,
+                Digital Shop 2022 Ⓒ</p>
+        </div>
+
+    </div>
+</footer>
+<script src="contacts.js"></script>
+</body>
+</html>
+
